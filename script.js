@@ -1,6 +1,4 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
 
-// prints "hi" in the browser's dev tools console
 var personName="Your name";
 var regNumber="your regno";
+document.write("<h1>"+regNumber+"</h1>");
