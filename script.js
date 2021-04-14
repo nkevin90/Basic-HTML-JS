@@ -2,4 +2,5 @@
     to your site with Javascript */
 
 // prints "hi" in the browser's dev tools console
-console.log("hi");
+var personName="Your name";
+var regNumber="your regno";
