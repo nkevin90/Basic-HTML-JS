@@ -3,7 +3,7 @@ var regNumber = "BBIT/MG/0908/05/18";
 
 document.write("<h1>" + personName + "<pre>" + regNumber + "</h1>");
 
-function largesstnum()
+function largestnum()
 			{
 				var num1, num2, num3;
 				num1 = Number(document.getElementById("numberfunction").value);
@@ -32,7 +32,7 @@ var y=7;
 if(x>y){
   document.write("The first number " + x + " is greater than" + " the second number:" +y);
 }else{
-  document.write("The second number " + y+ " is greater than " +" the first number" + x);
+  document.write("The second number " + y+ " is greater than " +" the first number " + x);
 }
 //
 function numberSum(N) {
@@ -45,6 +45,6 @@ function numberSum(N) {
 
 function run(){
   var val;
-  val = document.getElementById("val").value;
+  document.getElementById("val").value;
   document.getElementById("results").innerHTML=val+": "+numberSum(val)
   }
