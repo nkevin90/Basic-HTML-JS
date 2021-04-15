@@ -2,7 +2,7 @@
 var x=4;
 var y=7;
 if(x>y){
-  document.write("<h1>"+"The first number " + x + " is greater than" + " the second number:" +y+"</h1>");
+  document.write("The first number " + x + " is greater than" + " the second number:" +y);
 }else{
-  document.write("<h1"+"The second number " + y+ " is greater than " +" the first number" + x+"</h1>");
+  document.write("The second number " + y+ " is greater than " +" the first number" + x);
 }

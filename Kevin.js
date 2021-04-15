@@ -26,12 +26,12 @@ function largesstnum()
                     document.write("<h2>"+num3+" is larger"+"</h2>");
 				}
 			}
-//if satements to compare two numbers and display which number is large
+//if statements to compare two numbers and display which number is large
 var x=4;
 var y=7;
 if(x>y){
-  document.write("<h3>"+"The first number " + x + " is greater than" + " the second number:" +y+"</h3>");
+  document.write("The first number " + x + " is greater than" + " the second number:" +y);
 }else{
-  document.write("<h3"+"The second number " + y+ " is greater than " +" the first number" + x+"</h3>");
+  document.write("The second number " + y+ " is greater than " +" the first number" + x);
 }
 
