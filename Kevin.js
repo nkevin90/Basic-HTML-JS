@@ -33,9 +33,9 @@ function load(){
   }
 
 //function statement to calculate nnumbers between 1 to 10
-function numberSum() {
+function numberSum(n) {
   var total = 0;
-    for(var i = 1; i <= 10; i++){
+    for(var i = 1; i <= n; i++){
       total += i;
     }
     return total;
