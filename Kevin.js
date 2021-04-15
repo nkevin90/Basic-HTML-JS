@@ -3,7 +3,7 @@ var regNumber = "BBIT/MG/0908/05/18";
 
 document.write("<h1>" + personName + "<pre>" + regNumber + "</h1>");
 //check largest number between 3 numbers
-function largestnum()
+function largesstnum()
 			{
 				var num1, num2, num3;
 				num1 = Number(document.getElementById("numberfunction").value);
@@ -28,8 +28,8 @@ function largestnum()
 			}
 function load(){
   var value;
-  value =document.getElementById("value").value;
-  document.getElementById("numbers").innerHTML=value+": "+largestnum(value)
+  value =document.getElementById("val").value;
+  document.getElementById("numbers").innerHTML=value+": "+numberSum(value)
   }
 
 //function statement to calculate nnumbers between 1 to 10
