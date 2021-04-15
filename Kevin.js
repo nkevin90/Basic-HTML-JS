@@ -34,6 +34,7 @@ function largestnum()
 			  document.write("<h2>"+num3+" is larger"+"</h2>");
 				}
 			}
+
 //sum of the first 10 natural numbers
 function numberSum() {
   var total = 0;
