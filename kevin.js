@@ -2,16 +2,27 @@ var personName = "Kelvin Njenga";
 var regNumber = "BBIT/MG/0908/05/18";
 
 document.write("<h1>" + personName + "<pre>" + regNumber + "</h1>");
-var number1=1;
-var number2=60;
-if(number1>number2)
-  document.writeline("<p>"+number2)
 
-var hour = new Date().getHours(); 
-var greeting;
-if (hour < 18) {
-  greeting = "Good day";
-} else {
-  greeting = "Good evening";
-}
-document.getElementById("firstid").innerHTML = greeting;
+function largesstnum()
+			{
+				var num1, num2, num3;
+				num1 = Number(document.getElementById("numberfunction").value);
+				num2 = Number(document.getElementById("numbersum").value);
+                num3 = Number(document.getElementById("numbertr").value);
+
+				if(num1>num2 && num1>num3)
+				{
+				
+                    document.write("<h2>"+num1+"is larger"+"</h2>");
+				}
+				else if(num2>num1 && num2>num3)
+				{
+				
+                    document.write("<h2>"+num2+"is larger"+"</h2>");
+				}
+				else if(num3>num1 && num3>num2)
+				{
+			
+                    document.write("<h2>"+num3+"is larger"+"</h2>");
+				}
+			}
