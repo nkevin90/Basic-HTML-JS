@@ -13,16 +13,16 @@ function largesstnum()
 				if(num1>num2 && num1>num3)
 				{
 				
-                    document.write("<h2>"+num1+"is larger"+"</h2>");
+                    document.write("<h2>"+num1+" is larger"+"</h2>");
 				}
 				else if(num2>num1 && num2>num3)
 				{
 				
-                    document.write("<h2>"+num2+"is larger"+"</h2>");
+                    document.write("<h2>"+num2+" is larger"+"</h2>");
 				}
 				else if(num3>num1 && num3>num2)
 				{
 			
-                    document.write("<h2>"+num3+"is larger"+"</h2>");
+                    document.write("<h2>"+num3+" is larger"+"</h2>");
 				}
 			}
