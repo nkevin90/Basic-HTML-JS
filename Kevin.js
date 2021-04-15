@@ -34,17 +34,3 @@ if(x>y){
 }else{
   document.write("The second number " + y+ " is greater than " +" the first number " + x);
 }
-//
-function numberSum(N) {
-  var total = 0;
-    for(var i = 1; i <= N; i++){
-      total += i;
-    }
-    return total;
-}
-
-function run(){
-  var val;
-  document.getElementById("val").value;
-  document.getElementById("results").innerHTML=val+": "+numberSum(val)
-  }
