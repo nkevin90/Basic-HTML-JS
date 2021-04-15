@@ -10,3 +10,4 @@ function numberSum(N) {
     }
     document.write("<p>" +total + "</p>");
 }
+
