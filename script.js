@@ -22,4 +22,4 @@ switch(new Date().getDay()){
   case 6:
     day="Saturday"
 }
-document.getElementById("trial").innerHTML="Today is"+day;
+document.getElementById("trial").innerHTML="Today is"+ day;
