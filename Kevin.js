@@ -5,9 +5,10 @@ document.write("<h1>" + personName + "<pre>" + regNumber + "</h1>");
 
 //if satements to compare two numbers and display which number is larger
 function largenumber(){
+  var txt;
 var number1, number2;
-				number1 = Number(document.getElementById("numberfunc").value);
-				number2 = Number(document.getElementById("numbertotal").value);
+				txt=number1 = Number(document.getElementById("numberfunc").value);
+				txt=number2 = Number(document.getElementById("numbertotal").value);
 				if(number1>number2)
 				{
 				 document.write("<h2>"+"the first number "+number1+" is larger"+"</h2>");
@@ -42,19 +43,8 @@ function largestnum()
 			}
 
 //sum of the first 10 natural numbers
-function numberSum() {
-  var total = 0;
-    for(var i = 1; i <= 10; i++){
-      total += i;
-    }
-    return total;
-}
 
-function run(){
-  let
-  val =document.getElementById("val").value;
-  document.getElementById("results").innerHTML=val+": "+numberSum(val)
-  }
+
 //display day of the week
 function date(){
 var day;
