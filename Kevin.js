@@ -124,6 +124,10 @@ function tea(){
 //number 5c of the exercise.
 //using do while statements to find sum of number 1-10
 function add(){
-  
-  
+  var sum=0;
+  var i=1;
+  do sum+=i;
+  while(i<10);
+  i++;
+  document.getElementById("test").innerHTML = "sum of numbers 1 to 10 is: " + sum;
 }
