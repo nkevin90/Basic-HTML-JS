@@ -36,9 +36,18 @@ function amazing(){
   }
 }
   
+//number 4a of the exercise
+//display day of the week using the if-else ladder
+function display(){
+  var day;
+  
+  
+  
+}
+
 
 //number 4b of the exercise:
-//display day of the week
+//display day of the week using the switch case statement
 function date(){
 var day;
 switch (new Date().getDay()) {
