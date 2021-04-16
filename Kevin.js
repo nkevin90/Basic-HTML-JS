@@ -1,9 +1,11 @@
+//number 1 of the exercise: both a and b
 //This code displays the name of a student and the registration number
 var personName = "Kelvin Njenga";
 var regNumber = "BBIT/MG/0908/05/18";
-
 document.write("<h1>" + personName + "<pre>" + regNumber + "</h1>");
 
+
+//number 2 of the exercise.
 //Checks two numbers and displays which number between them is large
 function myFunction() {
   var input;
@@ -17,7 +19,9 @@ function myFunction() {
   
 }
 
-//this code display the largest number between three numbers
+
+//number 3 of the exercise
+//this code display the largest number between three numbers entered by the user
 function amazing(){
   var input;
   var number1 = prompt("enter your 1st number");
@@ -33,6 +37,7 @@ function amazing(){
 }
   
 
+//number 4b of the exercise:
 //display day of the week
 function date(){
 var day;
