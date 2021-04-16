@@ -9,13 +9,12 @@ document.write("<h1>" + personName + "<pre>" + regNumber + "</h1>");
 //number 2 of the exercise.
 //Checks two numbers and displays which number between them is large
 function myFunction() {
-  var input;
-  var number1 = prompt("enter your 1st number");
+  var number1 =prompt("enter your 1st number");
   var number2=prompt("enter your 2nd number");
   if (number1>number2) {
-    document.getElementById("demo").innerHTML="the first number: "+number1+" is larger";
+    document.getElementById("demo").innerHTML="Your first input: "+number1+" is larger";
   } else {
-    document.getElementById("demo").innerHTML="the second number: "+number2+" is larger";
+    document.getElementById("demo").innerHTML="Your last input: "+number2+" is larger";
   }
   
 }
@@ -25,16 +24,15 @@ function myFunction() {
 //number 3 of the exercise.
 //this code display the largest number between three numbers entered by the user
 function amazing(){
-  var input;
   var number1 = prompt("enter your 1st number");
   var number2=prompt("enter your 2nd number");
   var number3=prompt("enter your 3rd number");
   if (number1>number2 && number1>number3) {
-    document.getElementById("large").innerHTML="the first number: "+number1+" is larger";
+    document.getElementById("large").innerHTML="the first input: "+number1+" is larger";
   } else if(number2>number1 && number2>number3){
-    document.getElementById("large").innerHTML="the second number: "+number2+" is larger";
+    document.getElementById("large").innerHTML="the second input: "+number2+" is larger";
   }else {
-    document.getElementById("large").innerHTML="the third number: "+number3+" is larger";
+    document.getElementById("large").innerHTML="the last input: "+number3+" is larger";
   }
 }
   
@@ -113,14 +111,26 @@ function node(){
 //number 5b of the exercise:
 //using while statement to find sum of number 1-10
 function tea(){
-  var total=0;
-  
-  document.getElementById("add").innerHTML = "sum of numbers 1 to 10 is: " + total;
+var total=0;
+var user =10;
+var i=1;
+while (i <=user) {
+  total+=i;
+  i++;
+}
+  document.getElementById("add").innerHTML = "The total sum of numbers 1 to 10 is: " + total;
 }
 
 //number 5c of the exercise.
 //using do while statements to find sum of number 1-10
 function add(){
-  var sum=0;
-  document.getElementById("test").innerHTML = "sum of numbers 1 to 10 is: " + sum;
+var sum=0;
+var user=10;
+var i = 0;
+do {
+  sum=sum+i;
+  i++;
+}
+while (i <=user); 
+  document.getElementById("test").innerHTML = "Sum total of numbers 1 to 10 is: " + sum;
 }
