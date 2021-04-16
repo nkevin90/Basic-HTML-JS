@@ -10,11 +10,11 @@ var number1, number2;
 				number2 = Number(document.getElementById("numbertotal").value);
 				if(number1>number2)
 				{
-				 document.write("<h2>"+number1+" is larger"+"</h2>");
+				 document.write("<h2>"+"the first number "+number1+" is larger"+"</h2>");
 				}
-				else if(number2>number1)
+				else
 				{
-				document.write("<h2>"+number2+" is larger"+"</h2>");
+				document.write("<h2>"+"the second number "+number2+" is larger"+"</h2>");
 				}
 }
 
@@ -80,5 +80,5 @@ switch (new Date().getDay()) {
   case  6:
     day = "Saturday";
 }
-document.getElementById("demo").innerHTML = "Today is " + day;
+document.getElementById("trial").innerHTML = "Today is " + day;
 }
