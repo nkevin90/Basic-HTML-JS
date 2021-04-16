@@ -5,10 +5,10 @@ document.write("<h1>" + personName + "<pre>" + regNumber + "</h1>");
 
 //if satements to compare two numbers and display which number is larger
 function largenumber(){
-  var me;
+  
 var number1, number2;
-				me=number1 = Number(document.getElementById("numberfunc").value);
-				me=number2 = Number(document.getElementById("numbertotal").value);
+				number1 = Number(document.getElementById("numberfunc").value);
+				number2 = Number(document.getElementById("numbertotal").value);
 				if(number1>number2)
 				{
 				 document.write("<h2>"+"the first number "+number1+" is larger"+"</h2>");
@@ -16,7 +16,6 @@ var number1, number2;
 				else
 				{
 				document.write("<h2>"+"the second number "+number2+" is larger"+"</h2>");
-          document.getElementById("tray").innerHTML = me;
 				}
 }
 
@@ -76,11 +75,12 @@ document.getElementById("trial").innerHTML = "Today is " + day;
 //trial
 function myFunction() {
   var txt;
-  var person = prompt("Please enter your name:", "Harry Potter");
-  if (person == null || person == "") {
-    txt = "User cancelled the prompt.";
+  var number1 = prompt("enter your 1st number");
+  var number2=prompt("enter your 2nd number");
+  if (number1>number2) {
+    txt = "the first number"+number1+" is larger";
   } else {
-    txt = "Hello " + person + "! How are you today?";
+    txt = "the second number"+number2+" is larger";
   }
   document.getElementById("demo").innerHTML = txt;
 }
