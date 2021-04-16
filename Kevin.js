@@ -5,6 +5,7 @@ var regNumber = "BBIT/MG/0908/05/18";
 document.write("<h1>" + personName + "<pre>" + regNumber + "</h1>");
 
 
+
 //number 2 of the exercise.
 //Checks two numbers and displays which number between them is large
 function myFunction() {
@@ -20,7 +21,8 @@ function myFunction() {
 }
 
 
-//number 3 of the exercise
+
+//number 3 of the exercise.
 //this code display the largest number between three numbers entered by the user
 function amazing(){
   var input;
@@ -36,32 +38,31 @@ function amazing(){
   }
 }
   
-//number 4a of the exercise
+
+//number 4a of the exercise:
 //display day of the week using the if-else ladder
 function display(){
   var currentDay=new Date().getDay();
   if(currentDay==0){
-  document.getElementById("wow").innerHTML = "wow today is ";
+  document.getElementById("wow").innerHTML = "wow today is Sunday";
   }
   else if(currentDay==1){
-    document.getElementById("wow").innerHTML = "wow today is " + currentDay;
-  }else if(currentDay==2){
-    document.getElementById("wow").innerHTML = "wow today is " + currentDay;
+    document.getElementById("wow").innerHTML = "wow today is Monday";
+  }
+  else if(currentDay==2){
+    document.getElementById("wow").innerHTML = "wow today is Tuesday";
   }
   else if(currentDay==3){
-    document.getElementById("wow").innerHTML = "wow today is " + currentDay;
+    document.getElementById("wow").innerHTML = "wow today is Wednesday";
   }
   else if(currentDay==4){
-    document.getElementById("wow").innerHTML = "wow today is " + currentDay;
+    document.getElementById("wow").innerHTML = "wow today is Thursday" ;
   }
   else if(currentDay==5){
-    document.getElementById("wow").innerHTML = "wow today is " + currentDay;
-  }
-  else if(currentDay==6){
-    document.getElementById("wow").innerHTML = "wow today is " + currentDay;
+    document.getElementById("wow").innerHTML = "wow today is Friday";
   }
   else{
-    document.getElementById("wow").innerHTML = "wow today is "+ currentDay;
+    document.getElementById("wow").innerHTML = "wow today is Saturday";
   }
     
 }
@@ -95,3 +96,8 @@ switch (new Date().getDay()) {
 }
 document.getElementById("trial").innerHTML = "Today is " + day;
 }
+
+
+//number 5a of the exercise:
+//for statement to find the sum of number 1-10
+
