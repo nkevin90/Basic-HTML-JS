@@ -5,10 +5,10 @@ document.write("<h1>" + personName + "<pre>" + regNumber + "</h1>");
 
 //if satements to compare two numbers and display which number is larger
 function largenumber(){
-  var txt;
+  var me;
 var number1, number2;
-				txt=number1 = Number(document.getElementById("numberfunc").value);
-				txt=number2 = Number(document.getElementById("numbertotal").value);
+				me=number1 = Number(document.getElementById("numberfunc").value);
+				me=number2 = Number(document.getElementById("numbertotal").value);
 				if(number1>number2)
 				{
 				 document.write("<h2>"+"the first number "+number1+" is larger"+"</h2>");
@@ -16,6 +16,7 @@ var number1, number2;
 				else
 				{
 				document.write("<h2>"+"the second number "+number2+" is larger"+"</h2>");
+          document.getElementById("tray").innerHTML = me;
 				}
 }
 
