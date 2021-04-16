@@ -52,10 +52,10 @@ function numberSum() {
 
 function run(){
   let
-  val = document.getElementById("val").value;
+  val =document.getElementById("val").value;
   document.getElementById("results").innerHTML=val+": "+numberSum(val)
   }
-//display days of the week
+//display day of the week
 function date(){
 var day;
 switch (new Date().getDay()) {
