@@ -102,7 +102,7 @@ document.getElementById("trial").innerHTML = "Today is " + day;
 //using for statement to find the sum of number 1-10
 function node(){
   var user=10;
-  var sum;
+  var sum=0;
   for(var i=1; i<=user; i++)
     sum=sum+i;
   document.getElementById("sugar").innerHTML = "sum of numbers 1 to 10 is: " + sum;
@@ -113,7 +113,12 @@ function node(){
 //number 5b of the exercise:
 //using while statement to find sum of number 1-10
 function tea(){
-  
+  var sum=0;
+  var i=1;
+  while(i<=10)
+  sum+=i;
+  i++
+  document.getElementById("add").innerHTML = "sum of numbers 1 to 10 is: " + sum;
 }
 
 //number 5c of the exercise.
