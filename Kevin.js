@@ -3,44 +3,22 @@ var regNumber = "BBIT/MG/0908/05/18";
 
 document.write("<h1>" + personName + "<pre>" + regNumber + "</h1>");
 
-//if satements to compare two numbers and display which number is larger
-function largenumber(){
-  
-var number1, number2;
-				number1 = Number(document.getElementById("numberfunc").value);
-				number2 = Number(document.getElementById("numbertotal").value);
-				if(number1>number2)
-				{
-				 document.write("<h2>"+"the first number "+number1+" is larger"+"</h2>");
-				}
-				else
-				{
-				document.write("<h2>"+"the second number "+number2+" is larger"+"</h2>");
-				}
-}
-
 //this code display the largest number between three numbers
-function largestnum()
-			{
-				var num1, num2, num3;
-				num1 = Number(document.getElementById("numberfunction").value);
-				num2 = Number(document.getElementById("numbersum").value);
-        num3 = Number(document.getElementById("numbertr").value);
-      
-
-				if(num1>num2 && num1>num3)
-				{
-				 document.write("<h2>"+num1+" is larger"+"</h2>");
-				}
-				else if(num2>num1 && num2>num3)
-				{
-				document.write("<h2>"+num2+" is larger"+"</h2>");
-				}
-				else if(num3>num1 && num3>num2)
-				{
-			  document.write("<h2>"+num3+" is larger"+"</h2>");
-				}
-			}
+function amazing() {
+  var txt;
+  var number1 = prompt("enter your 1st number");
+  var number2=prompt("enter your 2nd number");
+  var number3=prompt("enter your 3rd number")
+  if (number1>number2 && number1>number3) {
+    txt = "the first number "+number1+" is larger";
+  } else if(number2>number1 && number2>number3) {
+    txt = "the second number "+number2+" is larger";
+  }
+  else  {
+    txt = "the third number "+number3+" is larger";
+  }
+  document.getElementById("large").innerHTML = txt;
+}
 
 //sum of the first 10 natural numbers
 
@@ -72,7 +50,7 @@ switch (new Date().getDay()) {
 }
 document.getElementById("trial").innerHTML = "Today is " + day;
 }
-//trial
+//Checks the largest number between 2 numbers
 function myFunction() {
   var txt;
   var number1 = prompt("enter your 1st number");
