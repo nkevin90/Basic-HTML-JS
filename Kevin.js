@@ -4,12 +4,18 @@ var regNumber = "BBIT/MG/0908/05/18";
 document.write("<h1>" + personName + "<pre>" + regNumber + "</h1>");
 
 //if satements to compare two numbers and display which number is larger
-var x=4;
-var y=7;
-if(x>y){
-  document.write("<h2>"+"The first number " + x + " is greater than" + " the second number:" +y+"</h2>");
-}else{
-  document.write("<h2>"+"The second number " + y+ " is greater than " +" the first number " + x+"</h2>");
+function largenumber(){
+var number1, number2;
+				number1 = Number(document.getElementById("numberfunc").value);
+				number2 = Number(document.getElementById("numbertotal").value);
+				if(number1>number2)
+				{
+				 document.write("<h2>"+number1+" is larger"+"</h2>");
+				}
+				else if(number2>number1)
+				{
+				document.write("<h2>"+number2+" is larger"+"</h2>");
+				}
 }
 
 //this code display the largest number between three numbers
