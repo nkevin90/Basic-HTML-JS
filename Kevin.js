@@ -7,9 +7,9 @@ document.write("<h1>" + personName + "<pre>" + regNumber + "</h1>");
 var x=4;
 var y=7;
 if(x>y){
-  document.write("The first number " + x + " is greater than" + " the second number:" +y);
+  document.write("<h2>"+"The first number " + x + " is greater than" + " the second number:" +y+"</h2>");
 }else{
-  document.write("The second number " + y+ " is greater than " +" the first number " + x);
+  document.write("<h2>"+"The second number " + y+ " is greater than " +" the first number " + x+"</h2>");
 }
 
 //this code display the largest number between three numbers
