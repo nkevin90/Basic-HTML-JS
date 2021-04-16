@@ -39,10 +39,31 @@ function amazing(){
 //number 4a of the exercise
 //display day of the week using the if-else ladder
 function display(){
-  var day;
-  
-  
-  
+  var currentDay=new Date().getDay();
+  if(currentDay==0){
+  document.getElementById("wow").innerHTML = "wow today is ";
+  }
+  else if(currentDay==1){
+    document.getElementById("wow").innerHTML = "wow today is " + currentDay;
+  }else if(currentDay==2){
+    document.getElementById("wow").innerHTML = "wow today is " + currentDay;
+  }
+  else if(currentDay==3){
+    document.getElementById("wow").innerHTML = "wow today is " + currentDay;
+  }
+  else if(currentDay==4){
+    document.getElementById("wow").innerHTML = "wow today is " + currentDay;
+  }
+  else if(currentDay==5){
+    document.getElementById("wow").innerHTML = "wow today is " + currentDay;
+  }
+  else if(currentDay==6){
+    document.getElementById("wow").innerHTML = "wow today is " + currentDay;
+  }
+  else{
+    document.getElementById("wow").innerHTML = "wow today is "+ currentDay;
+  }
+    
 }
 
 
