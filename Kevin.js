@@ -99,5 +99,26 @@ document.getElementById("trial").innerHTML = "Today is " + day;
 
 
 //number 5a of the exercise:
-//for statement to find the sum of number 1-10
+//using for statement to find the sum of number 1-10
+function node(){
+  var user=10;
+  var sum;
+  for(var i=1; i<=user; i++)
+    sum=sum+i;
+  document.getElementById("sugar").innerHTML = "sum of numbers 1 to 10 is: " + sum;
+  
+}
 
+
+//number 5b of the exercise:
+//using while statement to find sum of number 1-10
+function tea(){
+  
+}
+
+//number 5c of the exercise.
+//using do while statements to find sum of number 1-10
+function add(){
+  
+  
+}
