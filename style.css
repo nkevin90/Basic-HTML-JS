@@ -2,11 +2,14 @@
 
 h1 {
   font-style: italic;
-  color:green;
+  color:red;
   
 }
 li{
   color:black;
   font-size:40px;
   background-color:powderblue;
+}
+body{
+  background-color:lime;
 }
