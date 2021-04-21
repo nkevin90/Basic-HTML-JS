@@ -134,3 +134,14 @@ do {
 while (i <=user); 
   document.getElementById("test").innerHTML = "Sum total of numbers 1 to 10 is: " + sum;
 }
+
+//number 5a of the exercise:
+//using for statement to find the sum of number 1-10
+function baby(){
+  var user=10;
+  var sum=0;
+  for(var i=0; i<user; i+=2)
+    sum=sum+i;
+  document.getElementById("moo").innerHTML = "sum of even numbers between 1 and 10 is: " + sum;
+  
+}
