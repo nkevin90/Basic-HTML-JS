@@ -1,7 +1,6 @@
 # Basic-HTML-JS
 <html>
 <head>
-  <title text-align='center'><h1>Basic-HTML, JS and CSS</h1></title>
   </head>
   <body>
     <p>
