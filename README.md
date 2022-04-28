@@ -4,7 +4,7 @@
   </head>
   <body>
     <p>
-    <ul type="*">
+    <ul type="circle">
     <li>How to use if Statements</li>
       <li>How to use case switch statements</li>
       <li>How to use various functions </li>
