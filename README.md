@@ -1,4 +1,4 @@
-# Basic-HTML-JS
+# Basic-HTML,JS & CSS
 <html>
 <head>
   </head>
